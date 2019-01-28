@@ -1,0 +1,20 @@
+{
+  "name": "jelofullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd server && cd app  && node server.js\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  },
+  "description": "steps to run the code",
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jelorivera08/react_fullstack/issues"
+  },
+  "homepage": "https://github.com/jelorivera08/react_fullstack#readme",
+  "devDependencies": {}
+}
